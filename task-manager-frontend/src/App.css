@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #243b55;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.pending {
+  background-color: #6c757d;
+}
+
+.ongoing {
+  background-color: #0d6efd;
+}
+
+.completed {
+  background-color: #198754;
+}
+
+.task-item {
+  padding: 12px;
+  border: 1px solid #e1e5ea;
+  border-radius: 8px;
+  background: white;
+}
+
+.task-item h6 {
+  font-weight: bold;
+  overflow-wrap: anywhere;
+}
+
+.task-item p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+}
